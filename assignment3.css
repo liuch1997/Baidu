@@ -1,0 +1,58 @@
+body{
+	margin:0;
+	padding:20px;
+	display:table;
+}
+
+div#tablerow{
+	display:table-row;
+}
+
+div#main{
+	background-color:#eee;
+	padding:20px;
+	border:1px #999 solid;
+}
+
+div#left,div#center,div#right{
+	display:table-cell;
+	vertical-align:top;
+}
+
+div#teamname{
+	padding:20px;
+	background-color:white;
+	width:200px;
+	border:1px #999 solid;
+	vertical-align:top;
+}
+
+div#teamname span{
+	vertical-align:top;
+}
+
+article{
+	background-color:white;
+	border:1px solid #999;
+	padding:20px;
+	margin:0;
+	vertical-align:top;
+	margin:0 20px 0 20px;
+}
+
+div#photo{
+	width:120px;
+	border:1px solid #999;
+	background-color:white;
+	vertical-align:top;
+}
+
+div#photo img{
+	margin:20px 20px 0 20px;
+	border:1px solid #999;
+}
+
+div#photo img#bottonmargin{
+	margin-bottom:20px;
+}
+
