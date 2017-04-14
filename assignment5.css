@@ -1,0 +1,136 @@
+body{
+	margin:0;
+	background-color:#DEDEDE;
+}
+
+h3{
+	color:gray;
+}
+
+nav{
+	background-color:#333;
+	height:60px;
+	
+}
+
+nav ul{
+	float:right;
+	line-height:60px;
+	height:60px;
+	margin:0;
+}
+
+nav ul li{
+	float:left;
+	width:67px;
+}
+
+nav ul li a{
+	text-decoration:none;
+}
+
+li a:link,li a:visited{
+	color:white;
+}
+
+li a:hover{
+	color:#666;
+}
+
+setion{
+	padding:0;
+}
+
+article{
+	margin: 20px 400px 20px 20px;
+	background-color: white;
+	border-bottom-color: #666;
+	border-bottom: thin;
+	padding: 20px;
+	box-shadow: 5px 5px 3px #666;
+}
+
+div#other{
+	margin:20px 400px 20px 20px;
+	background-color:white;
+	padding:20px;
+	box-shadow: 5px 5px 3px #666;
+
+}
+
+table{
+	border-collapse:collapse;
+	text-align:center;
+	vertical-align:middle;
+}
+
+table,td,th{
+	border: 1px solid black;
+	vertical-align: middle;
+}
+
+table{
+	width:100%;
+}
+
+th{
+	background-color:#333;
+	color:white;
+}
+
+div#picture{
+	margin:20px 400px 20px 20px;
+	background-color:white;
+	padding:20px;
+	box-shadow: 5px 5px 3px #666;
+}
+
+div.tenpicture{
+	display:inline-block;
+	text-align:center;
+	border:1px solid #666;
+	width:240px;
+	padding-bottom:20px;
+	margin:20px 20px 20px 0;
+}
+
+aside{
+	background-color:white;
+	padding:20px;
+	margin:20px;
+	width:320px;
+	float:right;
+	box-shadow: 5px 5px 3px #666;
+}
+
+aside h2{
+	border-left:3px solid #666;
+	padding-left:10px;
+}
+
+.tishi{
+	color:#666;
+	font-size:90%
+}
+
+div.tablerow{
+	display:table-row;
+}
+
+div.tablerow p{
+	display:table-cell;
+	vertical-align:top;
+	padding:4px;
+}
+
+div.tablerow p:first-child{
+	text-align:right;
+}
+
+*[type="submit"]{
+	width:100%;
+	background-color:#36F;
+	color:white;
+	border-radius:10px;
+	height:40px;
+}
