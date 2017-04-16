@@ -144,6 +144,8 @@ div#section4{
 	min-width:1280px;
 	height:340px;
 	background-image:url("http://r.photo.store.qq.com/psb?/V10wuHzy0ODrBf/4by37LeiEg4Xsmda6dWNphkmocNTzeNxdRoAKZY*MsU!/r/dCUAAAAAAAAA");
+	background-repeat:no-repeat;
+	background-size:100% auto;
 	text-align:center;
 }
 
@@ -175,4 +177,86 @@ div#section4 form input{
 	width:235px;
 	height:36px;
 	background-color:#BE4E48;
+}
+
+div#section5{
+	width:100%;
+	min-width:1280px;
+	height:631px;
+	background-color:#F8F8F7;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+div#section5 article{
+	width:219px;
+	margin:17px;
+	text-align:center;
+}
+
+div#section5 article h4{
+	font-family:"微软雅黑", "Microsoft YaHei UI", "Microsoft YaHei UI Light", sans-serif;
+	font-weight:normal;
+	font-size:18px;
+}
+
+div#section5 article p{
+	font-family:"微软雅黑", "Microsoft YaHei UI", "Microsoft YaHei UI Light", sans-serif;
+	font-size:14px;
+	color:#818181;
+}
+
+/*#section5_h{
+	text-align:justify;
+}*/
+
+div#section6{
+	display:flex;
+	height:567px;
+	width:100%;
+	min-width:1280px;
+}
+
+div#section6_left{
+	flex-grow:2;
+	background-image:url("http://r.photo.store.qq.com/psb?/V10wuHzy0ODrBf/hkcIlsmlJeNK89e0.FoIM56vGEZVz**b7eDciselhlc!/r/dBYAAAAAAAAA");
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	width:0;
+	position:relative;
+}
+
+div#section6_right{
+	flex-grow:1;
+	background-color:white;
+	width:0;
+}
+
+div#section6_left_text{
+	position:absolute;
+	left:30%;
+	top:30%;
+	color:white;
+	text-align:center;
+}
+
+div#section6_left_text h3{
+	font-family:"微软雅黑", "Microsoft YaHei UI", "Microsoft YaHei UI Light", sans-serif;
+	font-size:49.47px;
+	font-weight:normal;
+}
+
+div#section6_left_text h2{
+	font-family:"微软雅黑", "Microsoft YaHei UI", "Microsoft YaHei UI Light", sans-serif;
+	font-size:157.79px;
+	font-weight:normal;
+	position:relative;
+	top:-40px;
+}
+
+div#section6_left_text p{
+	font-family:"微软雅黑", "Microsoft YaHei UI", "Microsoft YaHei UI Light", sans-serif;
+	font-size:21.91px;
+	font-weight:normal;
 }
